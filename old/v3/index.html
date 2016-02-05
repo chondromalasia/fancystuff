@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+    
+        <!-- Meta Elements -->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Interactive European map with protest data visualization">
+        <meta name="author" content="protest_data_group">
+        <meta name="keywords" content="protest, data, computational, linguistics" />
+    
+        <!-- UI Elements -->
+        <link rel="shortcut icon" href="../favicon.ico">
+        <link rel="stylesheet" type="text/css" href="css/default.css" />
+        <link rel="stylesheet" type="text/css" href="css/component.css" />
+        
+        <!-- Map Elements -->
+        <link href="css/reset.css" rel="stylesheet" type="text/css" />
+        <link href="css/fonts.css" rel="stylesheet" type="text/css" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <link href="css/map.css" rel="stylesheet" type="text/css" />
+    
+        <title>PCLIII - Protest Data Visualization</title>
+            
+        <!-- Interactive Map Resources -->
+        <script src="/A2EB891D63C8/avg_ls_dom.js" type="text/javascript"></script>
+        <script src="js/jquery.js" type="text/javascript"></script>
+        <script src="js/raphael.min.js" type="text/javascript"></script>
+        <script src="js/scale.raphael.js" type="text/javascript"></script>
+        <script src="js/paths.js" type="text/javascript"></script>
+        <script src="js/init.js" type="text/javascript"></script>
+        
+        <!-- Boostrap Template Files -->
+        <script src="js/modernizr.custom.js"></script>
+        
+        <!-- Charts Library -->
+        <script src="charts/Chart.js"></script>
+	<script src="table/jquery-1.11.3.min.js"></script> 
+ 	<script src="table/js/jquery.dataTables.min.js"></script>
+	<script src="table/jquery.dataTables.min.css"></script>
+
+        <!-- Data Functions -->
+        <script src="js/data.js" type="text/javascript"></script>
+        
+    </head>
+    
+    <body onload = "makeCharts(), getChartData('europe')">
+        <div class="container">
+            <div id="splitlayout" class="splitlayout">
+                
+                <div class="intro">
+                    <div class="side side-left">
+                        <header class="codropsheader clearfix">
+                            <span>PCLIII - Project Documentation 
+                                <span class="bp-icon bp-icon-about" data-content="For further information visit www.cl.uzh.ch"></span>
+                            </span>
+                            <h1>PDV - Protest Data Visualization</h1>
+                            <nav>
+                                <a href="http://www.vorlesungen.uzh.ch/HS15/suche/e-50747896.details.html" class="bp-icon bp-icon-prev" data-info="PCLIII">
+				<span></span></a>
+                                <a href="http://web.ku.edu/~ronfrand/data/" class="bp-icon bp-icon-archive" data-info="Data Source">
+				<span></span></a>
+                            </nav>
+                        </header>
+                        <div class="intro-content">
+                           <!-- <h1>Select a Country</h1> -->
+                           <div class="test" style="width:100%">
+                               <div>
+                                   <div id="map"></div>
+                                   <div id="text"></div>
+                               </div>
+                           </div>
+                           <br/> <br/> <br/> <br/> <br/> 
+                           <div class="intro-content-link">
+                               <h1><span>&nbsp;</span><span>Manual and Documentation</span></h1>
+                           </div>                            
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="side side-right">               
+                        <div class="intro-content">
+                           <h1 class="country_tag">Europe - Overview 1980-1995</h1>
+                           <div style="width:100%">
+                               <div>
+                                   <canvas id="canvas" height="500" width="400"></canvas>
+                               </div>
+                           </div>
+                           <h1><span>&nbsp;</span><span>Show More Details</span></h1>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+                </div><!-- /intro -->
+                
+                <div class="page page-left">
+               	    <div class="page-inner">
+                        <section>
+                            <h2>Project Description</h2>
+                            <p>PCLIII Webapplication Development Project (Excerpt from Wikipedia):</p>
+			    <br/> 
+			    <p>The database includes all protest (or acts of dissent) and state repressive events with no size minimums 
+			       or maximums. It only included events with an identifiable size and location. Protest can be seen as actions 
+			       that show disapproval of particular policies or events (typically instigated by the government). Coercion can 
+			       be understood as forcing someone or a particular group to do something against their will using threats and causing fear</p>
+			    <br/>
+			    <p>The webpage contains protest and coercion data from the years 1980-1995 for 29 European countries, including: 
+			       Albania, Austria, Belgium, Bulgaria, Cyprus, Czechoslovakia, Czech Republic, Denmark, Finland, France, FR Germany, 
+			       GDR, Greece, Hungary, Iceland, Ireland, Italy, Luxembourg, Northern Ireland, Netherlands, Norway, Poland, Portugal, 
+			       Romania, Slovakia, Spain, Sweden, Switzerland and the United Kingdom. During this time span, some countries made the 
+			       transition from a communist state to a democratic state. Furthermore, it can be speculated that 1980-1995 was chosen 
+			       due to its correlation with the mass rise of newspaper readership.</p>
+			    <br/>
+			    <p>The database offers small descriptions of events, sometimes including the identification of the source of the events 
+			       and the political pull or strength of the protesting groups. A website strength of the database is that it includes a 
+			       huge span of events because there are no specified minimum and maximums to limit its information. This means that it is 
+			       less likely that an event will be left out of the data. A webpage weakness one may consider are the source limitations of 
+ 			       the data. All data was gathered exclusively from newspapers. So, the data may instead reflect news coverage, but not real
+			       numbers on events. For example, the government of the German Democratic Republic during the years prior to the fall of the 
+			       Soviet Union in 1989 may have purposely withheld information from news reporters, or not allowed them to cover all protest 
+			       events. Similarly, news creators may have themselves have a media bias. News creators may deem an event more or less effective
+			       than it was, which would purposely highlight or ignore certain aspects.</p>
+			    <br/>
+                        </section>
+                        <section>
+                            <h2>Manual</h2>
+                            <p>Click on a country to start your interactive user experience. All relevant information and data about your country of
+			       choice will be made instantaneously available to you. For an in-depth look you can always select the detailed information
+			       page where further statistics and charts are displayed.</p>
+                            <br/>
+                        </section>
+                        <section>
+                            <h2>Data Source</h2>
+                            <p>Interactive Map: <a href="http://freehtml5maps.com/free-html5-europe-map/">Free HTML Maps</a></p>
+			    <p>JS Charts: <a href=http://www.chartjs.org/">Charts.js HTML Library</a></p>
+                            <p>Data Source: <a href="http://web.ku.edu/~ronfrand/data">European Protest and Coercion Data</a></p>
+			    <p>Additional Information: <a href="https://en.wikipedia.org/wiki/European_Protest_and_Coercion">Wikipedia Article</a></p>
+			    <br/>
+                        </section>
+                        <section>
+                            <h2>Authors</h2>
+ 			    <p>Heath Gordon: Project Manager / Linux Enthusiat</p>
+  			    <p>Cazim Hysi: Database Expert / CSV Sorcerer</p>
+                            <p>Lucien Heitz: Programmer / VIM Victim</p>
+                        </section>
+                    </div><!-- /page-inner -->
+		</div><!-- /page-left -->
+                
+                 <div class="page page-right">                    
+                    <div class="page-inner">
+                        <section>
+                            <h2>Protests and Events of Coercion per Year </h2>
+			    A comparison of the total number of events per year of the specified country and Europe.<br/><br/>
+                            <p><canvas id="canvas_alt" height="120" width="400"></canvas></p>
+                        </section>
+                        <section>
+                            <h2>Ranked Categories</h2>
+			    Ranking of the most common type or protest per country over the entire time span.<br/><br/>
+                            <table>
+                		<tr>
+				    <td width="75">
+                                    </td>
+                		    <td>
+                       			<p> <canvas id="canvas_pie" height="300" width="300"></canvas></p>
+                		    </td>
+				    <td width="125">
+				    </td>
+                		    <td>
+                        		<p> <canvas id="canvas_pie_alt" height="300" width="300"></canvas></p>
+                		    </td>
+                		</tr>
+        		    </table>
+			</section>
+	<!--		<section>
+			    <h2>Annual Distribution</h2>
+			    Breakdown of the annulal distribution over all years for the specified country.<br/><br/>
+			    <table>
+                                <tr>
+                                    <td width="75">
+                                    </td>
+                                    <td>
+                                        <p> <canvas id="canvas_radar" height="300" width="300"></canvas></p>
+                                    </td>
+                                    <td width="125">
+                                    </td>
+                                    <td>
+                                        <p> <canvas id="canvas_radar_alt" height="300" width="300"></canvas></p>
+                                    </td>
+                                </tr>
+                            </table>
+			</section>-->
+			<section>
+			    <h2>Search for Keywords</h2>
+			    Displays the total count of incidents related to given keywords per country.<br/><br>
+			    <div>
+        			<input type="text" name="word" id="word">
+        			<button id="submit">Search</button>
+    			    </div>
+			    <br/>
+			    <table>
+                                <tr>
+                                    <td width="75">
+                                    </td>
+                                    <td width="200"> Word:
+                                    </td>
+                                    <td width="200"> Country:
+                                    </td>
+                                    <td width="200"> Count:
+                                    </td>
+                                </tr>
+                            </table>
+			    <br/>
+			</section>
+			<section>
+			    <h2>Word-Event Relation</h2>
+			    For a given word, display all related events with their full description.<br/><br/> 
+				<table id="example" class="display" cellspacing="0" width="100%">
+        			    <thead>
+            				<tr>
+					    <th>Country</th>
+					    <th>Event</th>
+					    <th>Count</th>
+            				</tr>
+        			    </thead>
+        			    <tfoot>
+            				<tr>
+					    <th>Country</th>
+					    <th>Event</th>
+					    <th>Count</th>
+            				</tr>
+        			    </tfoot>
+    				</table>
+			</section>
+                    </div><!-- /page-inner -->                   
+                </div><!-- /page-right -->
+                
+                <a href="#" class="back back-right" title="back to intro">&rarr;</a>
+                <a href="#" class="back back-left" title="back to intro">&larr;</a>
+                
+            </div><!-- /splitlayout -->
+        </div><!-- /container -->
+        
+        <!-- Includes for bootstrap template functionalities -->
+        <script src="js/classie.js"></script>
+        <script src="js/cbpSplitLayout.js"></script>
+	<script>
+            $(document).ready(function() {
+    		$('#example').DataTable( {
+        	    "ajax": "query.txt"
+    		});
+	    });
+	</script>
+
+	<!-- Is there even someone out there that is gonna read all the comments'n stuff? -->
+
+    </body>
+</html>

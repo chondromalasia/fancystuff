@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+
+<mapSettings 
+
+mapWidth = "646"
+mapHeight = "654"
+
+offColor = "e2e2e2"
+strokeColor = "24221f"
+
+useSideText = "false"
+textAreaWidth = "300"
+textAreaPadding = "10"
+
+/>
+
+<defaultSideText>
+  <![CDATA[]]>
+</defaultSideText>
+
+<stateData stateName="Iceland" url = "Iceland" stateMode = "ON" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Tunisia" url = "#" stateMode = "OFF" initialStateColor= "B12401" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Faroe Islands" url = "#" stateMode = "OFF" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Ireland" url = "Ireland" stateMode = "ON" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Guernsey" url = "#" stateMode = "OFF" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Isle Of Man" url = "#" stateMode = "OFF" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Jersey" url = "#" stateMode = "OFF" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Great Britain" url = "UK" stateMode = "ON" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Malta" url = "#" stateMode = "OFF" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Santa Marina" url = "#" stateMode = "OFF" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Vatican" url = "#" stateMode = "OFF" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Belgium" url = "Belgium" stateMode = "ON" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Luxembourg" url = "Benelux" stateMode = "ON" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Portugal" url = "Portugal" stateMode = "ON" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Norway" url = "#" stateMode = "OFF" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Palestine" url = "#" stateMode = "OFF" initialStateColor= "58798D" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>ta>
+
+<stateData stateName="Lebanon" url = "#" stateMode = "OFF" initialStateColor= "58798D" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Georgia" url = "#" stateMode = "OFF" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Lybia" url = "#" stateMode = "OFF" initialStateColor= "58798D" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Maroc" url = "#" stateMode = "OFF" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Serbia" url = "#" stateMode = "OFF" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Kosovo" url = "#" stateMode = "OFF" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Sweden" url = "Sweden" stateMode = "ON" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Andorra" url = "#" stateMode = "OFF" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Albania" url = "Albania" stateMode = "ON" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Bosnia" url = "#" stateMode = "OFF" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Croatia" url = "#" stateMode = "OFF" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Macedonia" url = "#" stateMode = "OFF" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Bulgaria" url = "Bulgaria" stateMode = "ON" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Cyprus" url = "Cyprus" stateMode = "ON" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Turkey" url = "#" stateMode = "OFF" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Austria" url = "Austria" stateMode = "ON" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Czech Republic" url = "Czech" stateMode = "ON" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Denmark" url = "Denmark" stateMode = "ON" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Hungary" url = "Hungary" stateMode = "ON" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Poland" url = "Poland" stateMode = "ON" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Slovakia" url = "Slovakia" stateMode = "ON" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Slovenia" url = "#" stateMode = "OFF" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Germany" url = "Germany" stateMode = "ON" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Liechtenstein" url = "#" stateMode = "OFF" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Switzerland"  url = "Switzerland" stateMode = "ON" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Belarus" url = "#" stateMode = "OFF" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Estonia" url = "#" stateMode = "OFF" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Latvia" url = "#" stateMode = "OFF" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Lithuania" url = "#" stateMode = "OFF" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Moldova" url = "#" stateMode = "OFF" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Romania" url = "Romania" stateMode = "ON" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Ukraine" url = "#" stateMode = "OFF" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Montenegro" url = "#" stateMode = "OFF" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Netherland" url = "Netherlands" stateMode = "ON" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Italia" url = "Italy" stateMode = "ON" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Greece" url = "Greece" stateMode = "ON" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="France" url = "France" stateMode = "ON" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Russia" url = "#" stateMode = "OFF" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Spain" url = "Spain" stateMode = "ON" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Algeria" url = "#" stateMode = "OFF" initialStateColor= "B12401" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Egypt" url = "#" stateMode = "OFF" initialStateColor= "B12401" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Saudi Arabia" url = "#" stateMode = "OFF" initialStateColor= "B12401" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Jordan" url = "#" stateMode = "OFF" initialStateColor= "B12401" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Syria" url = "#" stateMode = "OFF" initialStateColor= "B12401" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Israel" url = "#" stateMode = "OFF" initialStateColor= "B12401" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+<stateData stateName="Finland" url = "Finland" stateMode = "ON" initialStateColor= "999966" stateOverColor = "FF9900" stateSelectedColor = "feb41c">
+<![CDATA[]]>
+</stateData>
+
+</data>
